@@ -17,7 +17,16 @@ export default function App() {
         tener el nombre examen-react-Nombre-Apellido1, donde nombre y apellido
         son los tuyos.
       </p>
-      
+      {MenuItems.map((item) => {
+        return (
+          <Route
+            key={item.id}
+            path={item.path}
+            exact
+            component={item.component}
+          />
+        );
+      })}
     </>
   );
 }
