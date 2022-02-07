@@ -1,4 +1,5 @@
 import React from 'react';
+import {Container} from '';
 
 class Navbar extends React.Component {
   constructor(props) {
@@ -45,6 +46,7 @@ class Navbar extends React.Component {
         </Navbar.Offcanvas>
       </Container>
     </Navbar>
+    )
   }
 }
 export default Navbar;

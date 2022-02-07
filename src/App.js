@@ -17,9 +17,7 @@ export default function App() {
         tener el nombre examen-react-Nombre-Apellido1, donde nombre y apellido
         son los tuyos.
       </p>
-      <Ejercicio1 />
-      <Ejercicio2 />
-      <Ejercicio3 />
+      
     </>
   );
 }
